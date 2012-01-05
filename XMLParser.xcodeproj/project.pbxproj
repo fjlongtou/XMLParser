@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BBE43AA14B5614500EC0E61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBE43A914B5614500EC0E61 /* UIKit.framework */; };
+		2BBE43AC14B5614500EC0E61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBE43AB14B5614500EC0E61 /* Foundation.framework */; };
+		2BBE43AE14B5614500EC0E61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBE43AD14B5614500EC0E61 /* CoreGraphics.framework */; };
+		2BBE43B414B5614500EC0E61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE43B214B5614500EC0E61 /* InfoPlist.strings */; };
+		2BBE43B614B5614500EC0E61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE43B514B5614500EC0E61 /* main.m */; };
+		2BBE43BA14B5614500EC0E61 /* XMLParserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE43B914B5614500EC0E61 /* XMLParserAppDelegate.m */; };
+		2BBE43BD14B5614500EC0E61 /* XMLParserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE43BC14B5614500EC0E61 /* XMLParserViewController.m */; };
+		2BBE43C014B5614500EC0E61 /* XMLParserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE43BE14B5614500EC0E61 /* XMLParserViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BBE43A514B5614500EC0E61 /* XMLParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBE43A914B5614500EC0E61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BBE43AB14B5614500EC0E61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BBE43AD14B5614500EC0E61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BBE43B114B5614500EC0E61 /* XMLParser-Info.plist */ = {isa = PBXFileReference; path = "XMLParser-Info.plist"; sourceTree = "<group>"; };
+		2BBE43B314B5614500EC0E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BBE43B514B5614500EC0E61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BBE43B714B5614500EC0E61 /* XMLParser-Prefix.pch */ = {isa = PBXFileReference; path = "XMLParser-Prefix.pch"; sourceTree = "<group>"; };
+		2BBE43B814B5614500EC0E61 /* XMLParserAppDelegate.h */ = {isa = PBXFileReference; path = XMLParserAppDelegate.h; sourceTree = "<group>"; };
+		2BBE43B914B5614500EC0E61 /* XMLParserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLParserAppDelegate.m; sourceTree = "<group>"; };
+		2BBE43BB14B5614500EC0E61 /* XMLParserViewController.h */ = {isa = PBXFileReference; path = XMLParserViewController.h; sourceTree = "<group>"; };
+		2BBE43BC14B5614500EC0E61 /* XMLParserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLParserViewController.m; sourceTree = "<group>"; };
+		2BBE43BF14B5614500EC0E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XMLParserViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BBE43A214B5614500EC0E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBE43AA14B5614500EC0E61 /* UIKit.framework in Frameworks */,
+				2BBE43AC14B5614500EC0E61 /* Foundation.framework in Frameworks */,
+				2BBE43AE14B5614500EC0E61 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BBE439A14B5614500EC0E61 = {
+			isa = PBXGroup;
+			children = (
+				2BBE43AF14B5614500EC0E61 /* XMLParser */,
+				2BBE43A814B5614500EC0E61 /* Frameworks */,
+				2BBE43A614B5614500EC0E61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BBE43A614B5614500EC0E61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE43A514B5614500EC0E61 /* XMLParser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BBE43A814B5614500EC0E61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE43A914B5614500EC0E61 /* UIKit.framework */,
+				2BBE43AB14B5614500EC0E61 /* Foundation.framework */,
+				2BBE43AD14B5614500EC0E61 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BBE43AF14B5614500EC0E61 /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE43B814B5614500EC0E61 /* XMLParserAppDelegate.h */,
+				2BBE43B914B5614500EC0E61 /* XMLParserAppDelegate.m */,
+				2BBE43BB14B5614500EC0E61 /* XMLParserViewController.h */,
+				2BBE43BC14B5614500EC0E61 /* XMLParserViewController.m */,
+				2BBE43BE14B5614500EC0E61 /* XMLParserViewController.xib */,
+				2BBE43B014B5614500EC0E61 /* Supporting Files */,
+			);
+			path = XMLParser;
+			sourceTree = "<group>";
+		};
+		2BBE43B014B5614500EC0E61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE43B114B5614500EC0E61 /* XMLParser-Info.plist */,
+				2BBE43B214B5614500EC0E61 /* InfoPlist.strings */,
+				2BBE43B514B5614500EC0E61 /* main.m */,
+				2BBE43B714B5614500EC0E61 /* XMLParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BBE43A414B5614500EC0E61 /* XMLParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBE43C314B5614500EC0E61 /* Build configuration list for PBXNativeTarget "XMLParser" */;
+			buildPhases = (
+				2BBE43A114B5614500EC0E61 /* Sources */,
+				2BBE43A214B5614500EC0E61 /* Frameworks */,
+				2BBE43A314B5614500EC0E61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLParser;
+			productName = XMLParser;
+			productReference = 2BBE43A514B5614500EC0E61 /* XMLParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BBE439C14B5614500EC0E61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = uestc;
+			};
+			buildConfigurationList = 2BBE439F14B5614500EC0E61 /* Build configuration list for PBXProject "XMLParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BBE439A14B5614500EC0E61;
+			productRefGroup = 2BBE43A614B5614500EC0E61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BBE43A414B5614500EC0E61 /* XMLParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BBE43A314B5614500EC0E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBE43B414B5614500EC0E61 /* InfoPlist.strings in Resources */,
+				2BBE43C014B5614500EC0E61 /* XMLParserViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BBE43A114B5614500EC0E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBE43B614B5614500EC0E61 /* main.m in Sources */,
+				2BBE43BA14B5614500EC0E61 /* XMLParserAppDelegate.m in Sources */,
+				2BBE43BD14B5614500EC0E61 /* XMLParserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BBE43B214B5614500EC0E61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBE43B314B5614500EC0E61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BBE43BE14B5614500EC0E61 /* XMLParserViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBE43BF14B5614500EC0E61 /* en */,
+			);
+			name = XMLParserViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BBE43C114B5614500EC0E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BBE43C214B5614500EC0E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BBE43C414B5614500EC0E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMLParser/XMLParser-Prefix.pch";
+				INFOPLIST_FILE = "XMLParser/XMLParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BBE43C514B5614500EC0E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMLParser/XMLParser-Prefix.pch";
+				INFOPLIST_FILE = "XMLParser/XMLParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BBE439F14B5614500EC0E61 /* Build configuration list for PBXProject "XMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBE43C114B5614500EC0E61 /* Debug */,
+				2BBE43C214B5614500EC0E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBE43C314B5614500EC0E61 /* Build configuration list for PBXNativeTarget "XMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBE43C414B5614500EC0E61 /* Debug */,
+				2BBE43C514B5614500EC0E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BBE439C14B5614500EC0E61 /* Project object */;
+}
